@@ -1,0 +1,13 @@
+[project]
+name = "etf-option-analyzer"
+version = "0.1.0"
+description = "ETF/指数期权买方保险组合自动分析系统"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
